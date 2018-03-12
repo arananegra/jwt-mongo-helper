@@ -1,0 +1,58 @@
+{
+  "name": "jwt-mongo-helper",
+  "version": "1.0.5",
+  "description": "DAO + BS + DTO modules written to be used as login & register logic using Mongo and Express + typescript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "./node_modules/typescript/bin/tsc"
+  },
+  "author": "Álvaro Gómez Jáuregui",
+  "license": "MIT",
+  "dependencies": {
+    "core-js": "^2.4.1",
+    "mongodb": "^2.2.33",
+    "bcrypt": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^1.0.0",
+    "@types/chai": "^4.0.5",
+    "@types/core-js": "^0.9.42",
+    "@types/lodash": "^4.14.85",
+    "@types/mocha": "^2.2.44",
+    "@types/mongodb": "^2.2.15",
+    "@types/node": "^8.0.53",
+    "@types/sinon-stub-promise": "^1.1.1",
+    "@types/webpack-env": "^1.13.2",
+    "awesome-typescript-loader": "^3.4.0",
+    "chai": "^4.1.1",
+    "clean-webpack-plugin": "^0.1.16",
+    "jasmine": "^2.7.0",
+    "json-loader": "^0.5.4",
+    "karma": "^1.3.0",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage": "^1.1.1",
+    "karma-coverage-istanbul-reporter": "^1.3.0",
+    "karma-mocha": "^1.1.1",
+    "karma-sinon": "^1.0.5",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-typescript": "^3.0.8",
+    "karma-webpack": "^2.0.6",
+    "lodash": "^4.17.4",
+    "mocha": "^3.5.0",
+    "node": "^9.4.0",
+    "nodemon": "^1.14.12",
+    "sinon": "^3.2.0",
+    "ts-loader": "^2.3.2",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.6.1",
+    "pm2": "^2.10.1",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4",
+    "webpack-node-externals": "^1.6.0"
+  }
+}
